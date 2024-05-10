@@ -1,6 +1,8 @@
 import { createContext } from 'react';
 
 export const CartContext = createContext({
-    items: [] // for better autocompletion
+    // use for autocompletion
+    items: [],
+    addItemToCart: () => {}
 });
 
