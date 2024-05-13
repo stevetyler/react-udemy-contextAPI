@@ -8,7 +8,7 @@ export const CartContext = createContext({
     updateItemQuantity: () => {}
 });
 
-// use in any component that need state
+// use in any component that needs state
 function shoppingCartReducer (state, action) {
   if (action.type === 'ADD_ITEM') {
     const updatedItems = [...state.items];
